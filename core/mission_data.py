@@ -232,34 +232,238 @@ MISSIONS = {
     "name": "What is Cybersecurity?",
     "type": TYPE_THEORY,
     "phase": 0,
+    "diagram": (
+        "┌─────────────────────────────────────────────────────────────────────┐\n"
+        "│                     🛡️  CYBERSECURITY OVERVIEW                     │\n"
+        "├─────────────────────────────────────────────────────────────────────┤\n"
+        "│                                                                     │\n"
+        "│   ┌──────────────┐     PROTECTS      ┌──────────────────────┐      │\n"
+        "│   │  PEOPLE      │ ──────────────────▶│  DATA                │      │\n"
+        "│   │  (Users,     │                    │  (Personal, Financial│      │\n"
+        "│   │   Employees) │                    │   Medical, Corporate)│      │\n"
+        "│   └──────────────┘                    └──────────────────────┘      │\n"
+        "│          │                                      │                   │\n"
+        "│          ▼                                      ▼                   │\n"
+        "│   ┌──────────────────────────────────────────────────────────┐      │\n"
+        "│   │            CIA TRIAD (Core Principles)                   │      │\n"
+        "│   │                                                          │      │\n"
+        "│   │     🔒 Confidentiality    Only authorized access         │      │\n"
+        "│   │     ✅ Integrity          Data is not tampered           │      │\n"
+        "│   │     ⚡ Availability       Systems stay running           │      │\n"
+        "│   └──────────────────────────────────────────────────────────┘      │\n"
+        "│                          │                                          │\n"
+        "│            ┌─────────────┴──────────────┐                          │\n"
+        "│            ▼                             ▼                          │\n"
+        "│   ┌────────────────────┐     ┌────────────────────┐                │\n"
+        "│   │  🔴 RED TEAM       │     │  🔵 BLUE TEAM      │                │\n"
+        "│   │  (OFFENSE)         │     │  (DEFENSE)          │                │\n"
+        "│   │                    │     │                     │                │\n"
+        "│   │ • Pentesting       │     │ • SOC Monitoring    │                │\n"
+        "│   │ • Vuln Assessment  │     │ • Incident Response │                │\n"
+        "│   │ • Social Engineer  │     │ • Malware Analysis  │                │\n"
+        "│   │ • Exploit Dev      │     │ • Threat Hunting    │                │\n"
+        "│   │ • Physical Security│     │ • Digital Forensics │                │\n"
+        "│   └────────────────────┘     └─────────────────────┘               │\n"
+        "│                                                                     │\n"
+        "│   ┌──────────────────────────────────────────────────────────┐      │\n"
+        "│   │  🟣 PURPLE TEAM = Red + Blue working TOGETHER           │      │\n"
+        "│   │     → Red attacks, Blue defends, both learn & improve   │      │\n"
+        "│   └──────────────────────────────────────────────────────────┘      │\n"
+        "│                                                                     │\n"
+        "│   ┌──────────────────────────────────────────────────────────┐      │\n"
+        "│   │  ⚠️  COMMON THREAT ACTORS                                │      │\n"
+        "│   │                                                          │      │\n"
+        "│   │  Script Kiddies → Hacktivists → Cybercriminals           │      │\n"
+        "│   │       → Insiders → Nation-State (APT) Groups             │      │\n"
+        "│   └──────────────────────────────────────────────────────────┘      │\n"
+        "└─────────────────────────────────────────────────────────────────────┘"
+    ),
+    "resources": [
+        # ── VIDEO LECTURES ──
+        {
+            "name": "Cybersecurity In 5 Minutes — Simplilearn",
+            "type": "video",
+            "path": "https://www.youtube.com/watch?v=inWWhr5tnEA",
+            "description": "FREE — Quick animated intro to cybersecurity concepts",
+        },
+        {
+            "name": "What is Ethical Hacking? — NetworkChuck",
+            "type": "video",
+            "path": "https://www.youtube.com/watch?v=fNzpcB7ODxQ",
+            "description": "FREE — Fun and energetic intro to ethical hacking",
+        },
+        {
+            "name": "IP Addresses Explained — PowerCert",
+            "type": "video",
+            "path": "https://www.youtube.com/watch?v=7_-qWlvQQtY",
+            "description": "FREE — Visual explanation of how IP addresses work",
+        },
+        {
+            "name": "Ports Explained — PowerCert",
+            "type": "video",
+            "path": "https://www.youtube.com/watch?v=g2fT-g9PX9o",
+            "description": "FREE — Visual explanation of network ports",
+        },
+        {
+            "name": "Kali Linux Full Beginner Tutorial — NetworkChuck",
+            "type": "video",
+            "path": "https://www.youtube.com/watch?v=lZAoFs75_cs",
+            "description": "FREE — Complete Kali Linux walkthrough for beginners",
+        },
+        {
+            "name": "Top 10 Kali Linux Tools — The Cyber Mentor",
+            "type": "video",
+            "path": "https://www.youtube.com/watch?v=wBp0Rb-ZJak",
+            "description": "FREE — Must-know tools every hacker uses",
+        },
+        # ── PDF / WEB MATERIALS ──
+        {
+            "name": "NIST Cybersecurity Glossary",
+            "type": "link",
+            "path": "https://csrc.nist.gov/glossary",
+            "description": "FREE — Official glossary of all cybersecurity terms",
+        },
+        {
+            "name": "Cybrary — Free Cybersecurity Intro Course",
+            "type": "link",
+            "path": "https://www.cybrary.it/course/introduction-to-it-and-cybersecurity",
+            "description": "FREE — Structured online course for absolute beginners",
+        },
+        # ── HANDS-ON LABS ──
+        {
+            "name": "TryHackMe — Intro to Cyber Security",
+            "type": "link",
+            "path": "https://tryhackme.com/path/outline/introtocyber",
+            "description": "FREE — Interactive learning path covering cybersecurity fundamentals",
+        },
+        {
+            "name": "TryHackMe — What is Networking?",
+            "type": "link",
+            "path": "https://tryhackme.com/room/whatisnetworking",
+            "description": "FREE — Hands-on networking basics lab",
+        },
+        {
+            "name": "TryHackMe — Linux Fundamentals 1",
+            "type": "link",
+            "path": "https://tryhackme.com/room/linuxfundamentalspart1",
+            "description": "FREE — Learn the Linux command line from scratch",
+        },
+        # ── PDF MATERIALS (Google Drive) ──
+        {
+            "name": "Quick Start: Cyber Security Fundamentals (PDF)",
+            "type": "pdf",
+            "path": "https://drive.google.com/drive/folders/1AfQqDjo6809BkWtF3yyBlYb2k-hr2Z8m?usp=drive_link",
+            "description": "Fast 30-min overview covering definitions, threats, and defense basics. Start here!",
+        },
+        {
+            "name": "Deep Dive: Introduction to Cyber Security (PDF)",
+            "type": "pdf",
+            "path": "https://drive.google.com/drive/folders/1AfQqDjo6809BkWtF3yyBlYb2k-hr2Z8m?usp=drive_link",
+            "description": "Comprehensive textbook-level introduction. Read this for in-depth understanding.",
+        },
+    ],
     "easy": {
         "briefing": (
             "Welcome to CyberSim! Before we hack anything, let's understand\n"
             "what cybersecurity actually IS and why it matters.\n\n"
-            "Cybersecurity = protecting computers, networks, and data from attacks.\n"
-            "There are two sides: OFFENSE (Red Team = attackers) and DEFENSE (Blue Team = defenders).\n"
-            "You'll learn BOTH sides in this 2-year journey."
+            "Cybersecurity is the practice of protecting computers, networks,\n"
+            "programs, and data from unauthorized access or attacks.\n\n"
+            "There are two main sides:\n"
+            "  🔴 OFFENSE (Red Team) = Ethical hackers who find vulnerabilities\n"
+            "  🔵 DEFENSE (Blue Team) = Security analysts who detect and stop attacks\n\n"
+            "In this 2-year journey, you'll master BOTH sides.\n\n"
+            "Key Concept: The CIA Triad\n"
+            "  🔒 Confidentiality — Only authorized people can access the data\n"
+            "  ✅ Integrity       — Data hasn't been tampered with\n"
+            "  ⚡ Availability    — Systems are up and running when needed"
         ),
-        "objective": "Understand the difference between Red Team, Blue Team, and common attack types.",
+        "objective": "Understand the CIA Triad, difference between Red Team & Blue Team, and common attack types.",
         "topics": [
-            "Red Team: Penetration testing, finding vulnerabilities, ethical hacking",
-            "Blue Team: SOC analysts, incident response, monitoring, defense",
-            "Common attacks: Phishing, malware, ransomware, DDoS, SQL injection",
-            "Career paths: Pentester, SOC Analyst, Forensics, DevSecOps, Bug Bounty Hunter",
+            "CIA Triad: Confidentiality, Integrity, Availability — the 3 pillars of security",
+            "Red Team (Offense): Penetration testing, vulnerability scanning, ethical hacking",
+            "Blue Team (Defense): SOC analysts, incident response, monitoring, threat hunting",
+            "Purple Team: Red + Blue collaborate to improve overall security posture",
+            "Common attacks: Phishing, Malware, Ransomware, DDoS, SQL Injection, XSS",
+            "Threat Actors: Script Kiddies → Hacktivists → Cybercriminals → APT (Nation-State)",
+            "Frameworks: MITRE ATT&CK, NIST, OWASP Top 10",
+            "Career paths: Pentester, SOC Analyst, DFIR, DevSecOps, Bug Bounty Hunter, CISO",
         ],
         "step_by_step_guide": (
-            "STEP 1: Read through each topic above carefully.\n"
-            "STEP 2: Google 'MITRE ATT&CK framework' and explore it for 10 minutes.\n"
-            "STEP 3: Watch any 'What is Ethical Hacking?' video on YouTube (10-15 min).\n"
-            "STEP 4: Write down which career path interests you most."
+            "STEP 1: Read the briefing and study the Concept Map diagram above.\n"
+            "STEP 2: Open the Quick Start PDF (osou-dcs-02-cyber-security.pdf) for a fast overview.\n"
+            "STEP 3: Google 'MITRE ATT&CK framework' and explore it for 10 minutes.\n"
+            "STEP 4: Watch any 'What is Ethical Hacking?' video on YouTube (10-15 min).\n"
+            "STEP 5: Write down: (a) which career path interests you, (b) Red or Blue team?\n"
+            "STEP 6: Answer the quiz questions below to complete this mission."
         ),
-        "quiz": [("What team finds vulnerabilities?", "red team"), ("What team defends?", "blue team")],
-        "security_level": "Theory Mission — No active target",
-        "flag": "FLAG{cybersecurity_intro_2024}",
+        "quiz": [
+            ("What does CIA stand for in cybersecurity?", "confidentiality integrity availability"),
+            ("What team FINDS vulnerabilities — Red or Blue?", "red"),
+            ("What team DEFENDS against attacks — Red or Blue?", "blue"),
+            ("Name one common type of cyber attack", "phishing"),
+        ],
         "xp_reward": 50,
     },
-    "normal": {"briefing": "Same as easy — this is foundational knowledge.", "objective": "Same.", "topics": [], "step_by_step_guide": "", "quiz": [], "security_level": "Theory Mission — No active target", "flag": "FLAG{cybersecurity_intro_normal_2024}", "xp_reward": 50},
-    "hard": {"briefing": "Same as easy — this is foundational knowledge.", "objective": "Same.", "topics": [], "step_by_step_guide": "", "quiz": [], "security_level": "Theory Mission — No active target", "flag": "FLAG{cybersecurity_intro_hard_2024}", "xp_reward": 50},
+    "normal": {
+        "briefing": (
+            "Now go deeper into cybersecurity concepts. Study the differences between\n"
+            "various threat actor types, understand how the MITRE ATT&CK framework\n"
+            "categorizes attack techniques, and explore real-world breach case studies.\n\n"
+            "For detailed understanding, open the full Introduction to Cyber Security PDF."
+        ),
+        "objective": "Explain 5 categories of threat actors and describe what the MITRE ATT&CK framework is used for.",
+        "topics": [
+            "Threat Actor Categories: Script Kiddies, Hacktivists, Cybercriminals, Insiders, Nation-State APTs",
+            "MITRE ATT&CK: Tactics, Techniques, and Procedures (TTPs) mapped by adversary behavior",
+            "Cyber Kill Chain: Recon → Weaponize → Deliver → Exploit → Install → C2 → Action",
+            "Real breaches: Equifax (2017), SolarWinds (2020), Colonial Pipeline (2021)",
+            "Security Certifications: CompTIA Security+, CEH, PNPT, OSCP, CRTO",
+        ],
+        "step_by_step_guide": (
+            "STEP 1: Open 'Introduction-cyber-security.pdf' and read Chapters 1-3.\n"
+            "STEP 2: Visit https://attack.mitre.org and explore 3 different Tactics.\n"
+            "STEP 3: Research one real-world breach (e.g., Equifax or SolarWinds).\n"
+            "STEP 4: Write a 5-sentence summary of what you learned today.\n"
+            "STEP 5: Answer the quiz questions below."
+        ),
+        "quiz": [
+            ("What framework maps adversary behavior into Tactics and Techniques?", "mitre att&ck"),
+            ("What is the first phase of the Cyber Kill Chain?", "reconnaissance"),
+            ("What type of threat actor is funded by governments?", "nation-state"),
+            ("What year was the SolarWinds supply chain attack?", "2020"),
+        ],
+        "xp_reward": 75,
+    },
+    "hard": {
+        "briefing": (
+            "Expert-level study: analyze the differences between risk frameworks\n"
+            "(NIST, ISO 27001, CIS Controls), understand Cyber Threat Intelligence\n"
+            "(CTI), and explain the Diamond Model of intrusion analysis.\n\n"
+            "Read both PDFs completely and supplement with external research."
+        ),
+        "objective": "Compare NIST vs ISO 27001 frameworks. Explain the Diamond Model. Describe CTI lifecycle.",
+        "topics": [
+            "NIST Cybersecurity Framework: Identify, Protect, Detect, Respond, Recover",
+            "ISO 27001: International standard for Information Security Management Systems (ISMS)",
+            "CIS Controls: Top 18 prioritized security actions",
+            "Diamond Model: Adversary ↔ Infrastructure ↔ Capability ↔ Victim",
+            "Threat Intelligence Lifecycle: Direction → Collection → Processing → Analysis → Dissemination",
+            "Zero Trust Architecture: Never trust, always verify",
+        ],
+        "step_by_step_guide": (
+            "STEP 1: Read both PDFs cover to cover.\n"
+            "STEP 2: Research the NIST Cybersecurity Framework 5 functions.\n"
+            "STEP 3: Compare NIST vs ISO 27001 — what's the key difference?\n"
+            "STEP 4: Draw the Diamond Model on paper and explain each node.\n"
+            "STEP 5: Answer the quiz questions below."
+        ),
+        "quiz": [
+            ("Name the 5 NIST framework functions", "identify protect detect respond recover"),
+            ("What model uses Adversary, Infrastructure, Capability, and Victim?", "diamond model"),
+            ("What principle says 'never trust, always verify'?", "zero trust"),
+        ],
+        "xp_reward": 100,
+    },
 },
 
 2: {

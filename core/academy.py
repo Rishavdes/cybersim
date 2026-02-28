@@ -384,10 +384,17 @@ def _play_mission_from_topic(state: dict, mission_ids: list) -> int:
             mid = mission_ids[idx]
             # Import and run the mission
             from core.mission_runner import run_mission
+            from core.mission_data import get_mission
             from core.state import save_state
 
+            full_mission = get_mission(mid)
+            if not full_mission:
+                print(f"  {RED}[!] Mission {mid} not found.{RESET}")
+                return 0
+
+            difficulty = state.get("difficulty", "easy")
             print(f"\n  {GREEN}[⚡] Launching Mission {mid}...{RESET}")
-            run_mission(mid, state)
+            run_mission(state, mid, difficulty, full_mission)
             save_state(state)
             return 0  # XP is awarded by mission_runner directly
     except (ValueError, ImportError) as e:
