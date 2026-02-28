@@ -1,0 +1,6 @@
+"""Mission type constants shared across all mission data files."""
+TYPE_LAB = "lab"
+TYPE_THEORY = "theory"
+TYPE_PROJECT = "project"
+TYPE_CAREER = "career"
+TYPE_EXTERNAL = "external"

@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  wifi_target:
+    build: .
+    container_name: cybersim_wifi_target
+    hostname: WIFIOFFICE
+    networks:
+      cybersim_net:
+        ipv4_address: 172.20.0.16
+    environment:
+      - CYBERSIM_FLAG=${CYBERSIM_FLAG:-FLAG{wifi_default}}
+    restart: unless-stopped
+
+networks:
+  cybersim_net:
+    external: true
+    name: networking_lab_cybersim_net

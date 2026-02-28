@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}Register{% endblock %}
+{% block content %}
+<div style="max-width:400px;margin:3rem auto;">
+    <h1>Create Account</h1>
+    {% if error %}<div class="error">{{ error }}</div>{% endif %}
+    <form method="POST">
+        <label>Username</label>
+        <input type="text" name="username" required>
+        <label>Email</label>
+        <input type="email" name="email" required>
+        <label>Password</label>
+        <input type="password" name="password" required>
+        <label>Security Question</label>
+        <select name="security_question">
+            <option>What is your pet's name?</option>
+            <option>What city were you born in?</option>
+            <option>What is your mother's maiden name?</option>
+        </select>
+        <label>Security Answer</label>
+        <input type="text" name="security_answer" required>
+        <button type="submit" style="width:100%;margin-top:1rem;">Register</button>
+    </form>
+    <p style="margin-top:1rem;text-align:center;"><a href="/login">Already have an account?</a></p>
+</div>
+{% endblock %}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}ShopSim{% endblock %} — E-Commerce</title>
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body { font-family:'Segoe UI',system-ui,sans-serif; background:#0f0f1a; color:#e0e0e0; min-height:100vh; }
+        nav { background:linear-gradient(135deg,#1a1a2e,#16213e); padding:1rem 2rem; display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #0f3460; }
+        nav .logo { font-size:1.5rem; font-weight:700; color:#e94560; text-decoration:none; }
+        nav .logo span { color:#53a8b6; }
+        nav .links { display:flex; gap:1.5rem; align-items:center; }
+        nav .links a { color:#9ca3af; text-decoration:none; transition:color .2s; font-size:.9rem; }
+        nav .links a:hover { color:#e94560; }
+        .container { max-width:1200px; margin:0 auto; padding:2rem; }
+        .difficulty-badge { position:fixed; top:10px; right:10px; padding:.3rem .8rem; border-radius:4px; font-size:.7rem; font-weight:700; z-index:999; }
+        .diff-easy { background:#22c55e; color:#000; }
+        .diff-normal { background:#f59e0b; color:#000; }
+        .diff-hard { background:#ef4444; color:#fff; }
+        .diff-ultra_hard { background:#a855f7; color:#fff; }
+        h1,h2,h3 { margin-bottom:1rem; }
+        h1 { font-size:2rem; color:#e94560; }
+        .card { background:#1a1a2e; border:1px solid #1e3a5f; border-radius:8px; padding:1.5rem; margin-bottom:1rem; transition:transform .2s,border-color .2s; }
+        .card:hover { transform:translateY(-2px); border-color:#e94560; }
+        .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:1.5rem; }
+        input,textarea,select { width:100%; padding:.75rem; margin:.5rem 0; border:1px solid #1e3a5f; border-radius:6px; background:#16213e; color:#e0e0e0; font-size:.95rem; }
+        input:focus,textarea:focus { outline:none; border-color:#e94560; }
+        button,.btn { background:linear-gradient(135deg,#e94560,#c73659); color:#fff; border:none; padding:.75rem 1.5rem; border-radius:6px; cursor:pointer; font-size:.95rem; font-weight:600; transition:opacity .2s; }
+        button:hover,.btn:hover { opacity:.85; }
+        .btn-secondary { background:linear-gradient(135deg,#0f3460,#16213e); }
+        .error { background:#7f1d1d; color:#fca5a5; padding:1rem; border-radius:6px; margin:1rem 0; }
+        .success { background:#14532d; color:#86efac; padding:1rem; border-radius:6px; margin:1rem 0; }
+        .price { color:#22c55e; font-size:1.3rem; font-weight:700; }
+        a { color:#53a8b6; }
+        table { width:100%; border-collapse:collapse; margin:1rem 0; }
+        th,td { padding:.75rem; text-align:left; border-bottom:1px solid #1e3a5f; }
+        th { color:#9ca3af; font-size:.85rem; text-transform:uppercase; }
+        .review { background:#16213e; padding:1rem; border-radius:6px; margin:.5rem 0; }
+        .stars { color:#f59e0b; }
+        footer { text-align:center; padding:2rem; color:#4b5563; font-size:.8rem; border-top:1px solid #1e3a5f; margin-top:3rem; }
+    </style>
+</head>
+<body>
+    <div class="difficulty-badge diff-{{ difficulty }}">{{ difficulty|upper }} MODE</div>
+    <nav>
+        <a href="/" class="logo">Shop<span>Sim</span></a>
+        <div class="links">
+            <a href="/">Home</a>
+            <a href="/search">Search</a>
+            <a href="/contact">Contact</a>
+            <a href="/fetch">URL Checker</a>
+            <a href="/upload">Upload</a>
+            {% if session.get('username') %}
+                <a href="/profile/{{ session.get('user_id') }}">{{ session.get('username') }}</a>
+                <a href="/logout">Logout</a>
+            {% else %}
+                <a href="/login">Login</a>
+                <a href="/register">Register</a>
+            {% endif %}
+        </div>
+    </nav>
+    <div class="container">
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for msg in messages %}
+                <div class="success">{{ msg }}</div>
+            {% endfor %}
+        {% endif %}
+        {% endwith %}
+        {% block content %}{% endblock %}
+    </div>
+    <footer>&copy; 2025 ShopSim E-Commerce — CyberSim Training Target | Difficulty: {{ difficulty|upper }}</footer>
+</body>
+</html>

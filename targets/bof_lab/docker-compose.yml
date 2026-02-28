@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+  bof_target:
+    build: .
+    container_name: cybersim_bof_target
+    hostname: BOF
+    networks:
+      cybersim_net:
+        ipv4_address: 172.20.0.10
+    environment:
+      - CYBERSIM_FLAG=${CYBERSIM_FLAG:-FLAG{bof_default}}
+      - DIFFICULTY=${DIFFICULTY:-easy}
+    cap_add:
+      - NET_ADMIN
+      - SYS_PTRACE
+    restart: unless-stopped
+
+networks:
+  cybersim_net:
+    external: true
+    name: networking_lab_cybersim_net

@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  privesc_target:
+    build: .
+    container_name: cybersim_privesc_target
+    hostname: PRIVESC
+    networks:
+      cybersim_net:
+        ipv4_address: 172.20.0.14
+    environment:
+      - CYBERSIM_FLAG=${CYBERSIM_FLAG:-FLAG{privesc_default}}
+    cap_add:
+      - NET_ADMIN
+    restart: unless-stopped
+
+networks:
+  cybersim_net:
+    external: true
+    name: networking_lab_cybersim_net

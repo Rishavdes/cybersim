@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block title %}{{ product.name }}{% endblock %}
+{% block content %}
+<div class="card" style="margin-bottom:2rem;">
+    <h1>{{ product.name }}</h1>
+    <p style="color:#9ca3af;margin:1rem 0;">{{ product.description }}</p>
+    <span class="price">${{ "%.2f"|format(product.price) }}</span>
+    {% if session.get('user_id') %}
+    <form method="POST" action="/buy/{{ product.id }}"
+        style="margin-top:1rem;display:flex;gap:1rem;align-items:center;">
+        <input type="number" name="quantity" value="1" min="1" style="width:80px;">
+        <input type="text" name="coupon" placeholder="Coupon code" style="width:200px;">
+        <button type="submit">Buy Now</button>
+    </form>
+    {% else %}
+    <p style="margin-top:1rem;"><a href="/login">Login</a> to purchase.</p>
+    {% endif %}
+</div>
+<h2>Customer Reviews</h2>
+{% for r in reviews %}
+<div class="review">
+    <div style="display:flex;justify-content:space-between;">
+        <strong>{{ r.author }}</strong>
+        <span class="stars">{% for i in range(r.rating) %}★{% endfor %}</span>
+    </div>
+    {% if difficulty in ['easy','normal'] %}
+    <p style="margin-top:.5rem;">{{ r.content|safe }}</p>
+    {% else %}
+    <p style="margin-top:.5rem;">{{ r.content }}</p>
+    {% endif %}
+</div>
+{% else %}
+<p style="color:#9ca3af;">No reviews yet.</p>
+{% endfor %}
+{% if session.get('user_id') %}
+<h3 style="margin-top:2rem;">Write a Review</h3>
+<form method="POST" action="/product/{{ product.id }}/review">
+    {% if difficulty in ['easy','normal'] %}
+    <input type="text" name="author" value="{{ session.get('username','') }}" placeholder="Your name">
+    {% endif %}
+    <textarea name="content" rows="3" placeholder="Write your review..." required></textarea>
+    <select name="rating">
+        <option value="5">★★★★★</option>
+        <option value="4">★★★★</option>
+        <option value="3">★★★</option>
+        <option value="2">★★</option>
+        <option value="1">★</option>
+    </select>
+    <button type="submit" style="margin-top:.5rem;">Submit Review</button>
+</form>
+{% endif %}
+{% endblock %}

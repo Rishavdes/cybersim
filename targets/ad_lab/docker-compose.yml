@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  ad_target:
+    build: .
+    container_name: cybersim_ad_target
+    hostname: DC01
+    networks:
+      cybersim_net:
+        ipv4_address: 172.20.0.11
+    environment:
+      - CYBERSIM_FLAG=${CYBERSIM_FLAG:-FLAG{ad_default}}
+    cap_add:
+      - NET_ADMIN
+    restart: unless-stopped
+
+networks:
+  cybersim_net:
+    external: true
+    name: networking_lab_cybersim_net

@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<h1>Welcome to ShopSim</h1>
+<p style="color:#9ca3af;margin-bottom:2rem;">Your one-stop shop for tech gadgets. Browse our products below!</p>
+<div class="grid">
+    {% for p in products %}
+    <div class="card">
+        <h3>{{ p.name }}</h3>
+        <p style="color:#9ca3af;margin-bottom:1rem;">{{ p.description }}</p>
+        <div style="display:flex;justify-content:space-between;align-items:center;">
+            <span class="price">${{ "%.2f"|format(p.price) }}</span>
+            <a href="/product/{{ p.id }}" class="btn btn-secondary">View</a>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,932 @@
+{
+    "_info": "CyberSim Academy v2.0 — 8-Phase Roadmap. Edit this file to add videos, PDFs, labs. Platforms: telegram, gdrive, elhacker, web, youtube, lab",
+    "phase_0": {
+        "label": "Phase 0 — Absolute Beginner Intro",
+        "description": "Days 1-5: What is cybersecurity? IPs, ports, and your first look at Kali Linux tools.",
+        "topics": {
+            "Getting Started from Zero": {
+                "mission_ids": [
+                    1,
+                    2,
+                    3
+                ],
+                "description": "The very basics — what cybersecurity is, how networks work, and your tools.",
+                "videos": [
+                    {
+                        "name": "Cybersecurity In 5 Minutes — Simplilearn (FREE)",
+                        "url": "https://www.youtube.com/watch?v=inWWhr5tnEA",
+                        "platform": "youtube"
+                    },
+                    {
+                        "name": "What is Ethical Hacking? — NetworkChuck (FREE)",
+                        "url": "https://www.youtube.com/watch?v=fNzpcB7ODxQ",
+                        "platform": "youtube"
+                    },
+                    {
+                        "name": "IP Addresses Explained — PowerCert (FREE)",
+                        "url": "https://www.youtube.com/watch?v=7_-qWlvQQtY",
+                        "platform": "youtube"
+                    },
+                    {
+                        "name": "Ports Explained — PowerCert (FREE)",
+                        "url": "https://www.youtube.com/watch?v=g2fT-g9PX9o",
+                        "platform": "youtube"
+                    },
+                    {
+                        "name": "Kali Linux Full Beginner Tutorial — NetworkChuck (FREE)",
+                        "url": "https://www.youtube.com/watch?v=lZAoFs75_cs",
+                        "platform": "youtube"
+                    },
+                    {
+                        "name": "Top 10 Kali Linux Tools — The Cyber Mentor (FREE)",
+                        "url": "https://www.youtube.com/watch?v=wBp0Rb-ZJak",
+                        "platform": "youtube"
+                    },
+                    {
+                        "name": "Networking Fundamentals for Cybersecurity (elhacker)",
+                        "url": "https://ns2.elhacker.info/descargas/Networking%20Fundamentals%20for%20Cybersecurity/",
+                        "platform": "elhacker"
+                    }
+                ],
+                "pdfs": [
+                    {
+                        "name": "NIST Cybersecurity Glossary (FREE)",
+                        "url": "https://csrc.nist.gov/glossary",
+                        "platform": "web"
+                    },
+                    {
+                        "name": "Cybrary - Free Cybersecurity Intro Course",
+                        "url": "https://www.cybrary.it/course/introduction-to-it-and-cybersecurity",
+                        "platform": "web"
+                    }
+                ],
+                "labs": [
+                    {
+                        "name": "TryHackMe — Intro to Cyber Security (FREE)",
+                        "url": "https://tryhackme.com/path/outline/introtocyber",
+                        "platform": "web"
+                    },
+                    {
+                        "name": "TryHackMe — What is Networking? (FREE)",
+                        "url": "https://tryhackme.com/room/whatisnetworking",
+                        "platform": "web"
+                    },
+                    {
+                        "name": "TryHackMe — Linux Fundamentals 1 (FREE)",
+                        "url": "https://tryhackme.com/room/linuxfundamentalspart1",
+                        "platform": "web"
+                    },
+                    {
+                        "name": "Cisco Networking Academy — Free Intro Courses",
+                        "url": "https://www.netacad.com/courses/cybersecurity",
+                        "platform": "web"
+                    }
+                ]
+            }
+        }
+    },
+    "phase_1": {
+        "label": "Phase 1 — IT Foundations",
+        "description": "Months 1-3: Networking, Linux, Python, and security basics. Start from zero.",
+        "topics": {
+            "Networking Fundamentals": {
+                "mission_ids": [
+                    101,
+                    102,
+                    103,
+                    104,
+                    105,
+                    106,
+                    107,
+                    108,
+                    109
+                ],
+                "description": "TCP/IP, ports, protocols, scanning, packets. The backbone of everything.",
+                "videos": [
+                    {
+                        "name": "Cisco CCNA 200-301 Complete Course + Labs",
+                        "url": "https://elhacker.info/Cursos/Cisco%20CCNA%20200-301%20Exam%20Complete%20Course%20with%20practical%20labs/",
+                        "platform": "elhacker",
+                        "note": "Download recommended — streaming is slow"
+                    },
+                    {
+                        "name": "2 in 1 Cisco CCNA 200-301 + Python Network Automation",
+                        "url": "https://elhacker.info/Cursos/2%20in%201!%20Cisco%20CCNA%20200-301%20+%20Python%20Network%20Automation/%5bTutsNode.com%5d%20-%202%20in%201!%20Cisco%20CCNA%20200-301%20+%20Python%20Network%20Automation/",
+                        "platform": "elhacker",
+                        "note": "Download recommended — streaming is slow"
+                    },
+                    {
+                        "name": "Networking Fundamentals for Cybersecurity",
+                        "url": "https://ns2.elhacker.info/descargas/Networking%20Fundamentals%20for%20Cybersecurity/",
+                        "platform": "elhacker"
+                    },
+                    {
+                        "name": "CompTIA Network+ Full Course",
+                        "url": "PLACEHOLDER",
+                        "platform": "telegram"
+                    }
+                ],
+                "pdfs": [
+                    {
+                        "name": "CompTIA Network+ Study Guide PDF",
+                        "url": "PLACEHOLDER",
+                        "platform": "gdrive"
+                    },
+                    {
+                        "name": "Nmap Cheatsheet PDF",
+                        "url": "PLACEHOLDER",
+                        "platform": "gdrive"
+                    }
+                ],
+                "labs": [
+                    {
+                        "name": "TryHackMe - Nmap Room",
+                        "url": "https://tryhackme.com/room/furthernmap",
+                        "platform": "web"
+                    },
+                    {
+                        "name": "TryHackMe - Intro to Networking",
+                        "url": "https://tryhackme.com/room/introtonetworking",
+                        "platform": "web"
+                    },
+                    {
+                        "name": "CyberSim Network Lab",
+                        "url": "docker:networking_lab",
+                        "platform": "lab"
+                    }
+                ]
+            },
+            "Linux Fundamentals": {
+                "mission_ids": [
+                    201,
+                    202,
+                    203,
+                    204,
+                    205,
+                    206,
+                    207,
+                    208
+                ],
+                "description": "Command line, file system, permissions, processes, bash scripting.",
+                "videos": [
+                    {
+                        "name": "Linux Mastery - Command Line 11.5h",
+                        "url": "https://ns2.elhacker.info/descargas/Linux%20Mastery%20Master%20the%20Linux%20Command%20Line%20in%2011.5%20Hours/",
+                        "platform": "elhacker"
+                    },
+                    {
+                        "name": "Curso de Linux s4vitar",
+                        "url": "https://ns2.elhacker.info/descargas/Curso%20de%20Linux%20s4vitar/",
+                        "platform": "elhacker"
+                    },
+                    {
+                        "name": "Linux de Noob a Pro en 9 horas",
+                        "url": "https://ns2.elhacker.info/descargas/Linux%20de%20Noob%20a%20Pro%20en%209%20horas/",
+                        "platform": "elhacker"
+                    },
+                    {
+                        "name": "Linux Basics Full Course",
+                        "url": "PLACEHOLDER",
+                        "platform": "telegram"
+                    }
+                ],
+                "pdfs": [
+                    {
+                        "name": "Linux Command Line Cheatsheet",
+                        "url": "PLACEHOLDER",
+                        "platform": "gdrive"
+                    },
+                    {
+                        "name": "Linux Privilege Escalation Guide",
+                        "url": "PLACEHOLDER",
+                        "platform": "gdrive"
+                    }
+                ],
+                "labs": [
+                    {
+                        "name": "TryHackMe - Linux Fundamentals Part 1",
+                        "url": "https://tryhackme.com/room/linuxfundamentalspart1",
+                        "platform": "web"
+                    },
+                    {
+                        "name": "OverTheWire - Bandit",
+                        "url": "https://overthewire.org/wargames/bandit/",
+                        "platform": "web"
+                    },
+                    {
+                        "name": "CyberSim PrivEsc Lab",
+                        "url": "docker:privesc_lab",
+                        "platform": "lab"
+                    }
+                ]
+            },
+            "Python for Hacking": {
+                "mission_ids": [
+                    301,
+                    302,
+                    303,
+                    304,
+                    305,
+                    306,
+                    307
+                ],
+                "description": "Python scripting for cybersecurity: scanners, brute-forcers, parsers.",
+                "videos": [
+                    {
+                        "name": "HACKING Con Python3 - Audita, Defiende, Crea",
+                        "url": "https://ns2.elhacker.info/descargas/10.%20%E2%9C%94HACKING%20Con%20%5B%20Python3%20%5D.%20Audita%2C%20Defiende%2C%20Crea!.%20A%C3%B1o%202019/",
+                        "platform": "elhacker"
+                    },
+                    {
+                        "name": "Python for Red-Blue Teams",
+                        "url": "https://ns2.elhacker.info/descargas/Python%20for%20Red-Blue%20Teams%20from%20Scratch/",
+                        "platform": "elhacker"
+                    },
+                    {
+                        "name": "Python Ethical Hacking from Scratch",
+                        "url": "PLACEHOLDER",
+                        "platform": "telegram"
+                    }
+                ],
+                "pdfs": [
+                    {
+                        "name": "Python for Pentesters PDF",
+                        "url": "PLACEHOLDER",
+                        "platform": "gdrive"
+                    },
+                    {
+                        "name": "Automate the Boring Stuff (Free)",
+                        "url": "https://automatetheboringstuff.com",
+                        "platform": "web"
+                    }
+                ],
+                "labs": [
+                    {
+                        "name": "TryHackMe - Python Basics",
+                        "url": "https://tryhackme.com/room/pythonbasics",
+                        "platform": "web"
+                    },
+                    {
+                        "name": "HackerRank Python",
+                        "url": "https://www.hackerrank.com/domains/python",
+                        "platform": "web"
+                    }
+                ]
+            }
+        }
+    },
+    "phase_2": {
+        "label": "Phase 2 — Security Concepts",
+        "description": "Months 4-6: CompTIA Security+ topics, risk management, threat modeling, IAM.",
+        "topics": {
+            "Security Fundamentals": {
+                "mission_ids": [
+                    401,
+                    402,
+                    403
+                ],
+                "description": "CompTIA Security+ topics: IAM, risk, threats, malware, social engineering.",
+                "videos": [
+                    {
+                        "name": "CompTIA Security+ (SY0-701) Full Training",
+                        "url": "https://ns2.elhacker.info/descargas/CompTIA%20Security+%20(SY0-701%20%26%20SY0-601)%20Full%20Training%20Guide/",
+                        "platform": "elhacker"
+                    },
+                    {
+                        "name": "Cyber Security Fundamentals",
+                        "url": "https://ns2.elhacker.info/descargas/Cyber%20Security%20Fundamentals/",
+                        "platform": "elhacker"
+                    },
+                    {
+                        "name": "Security+ Full Course",
+                        "url": "PLACEHOLDER",
+                        "platform": "telegram"
+                    }
+                ],
+                "pdfs": [
+                    {
+                        "name": "CompTIA Security+ Study Guide",
+                        "url": "PLACEHOLDER",
+                        "platform": "gdrive"
+                    },
+                    {
+                        "name": "NIST Cybersecurity Framework",
+                        "url": "PLACEHOLDER",
+                        "platform": "gdrive"
+                    }
+                ],
+                "labs": [
+                    {
+                        "name": "TryHackMe - Intro to Cyber Security",
+                        "url": "https://tryhackme.com/path/outline/introtocyber",
+                        "platform": "web"
+                    }
+                ]
+            },
+            "Cryptography Basics": {
+                "mission_ids": [
+                    601,
+                    602,
+                    603,
+                    604,
+                    605,
+                    606,
+                    607
+                ],
+                "description": "Encoding, ciphers, hashing, encryption, steganography, TLS/SSL.",
+                "videos": [
+                    {
+                        "name": "Cryptography Full Course",
+                        "url": "PLACEHOLDER",
+                        "platform": "telegram"
+                    },
+                    {
+                        "name": "Hash Cracking Course",
+                        "url": "PLACEHOLDER",
+                        "platform": "telegram"
+                    }
+                ],
+                "pdfs": [
+                    {
+                        "name": "Cryptography Cheatsheet",
+                        "url": "PLACEHOLDER",
+                        "platform": "gdrive"
+                    }
+                ],
+                "labs": [
+                    {
+                        "name": "CryptoHack",
+                        "url": "https://cryptohack.org",
+                        "platform": "web"
+                    },
+                    {
+                        "name": "PicoCTF Crypto Challenges",
+                        "url": "https://picoctf.org",
+                        "platform": "web"
+                    }
+                ]
+            }
+        }
+    },
+    "phase_3": {
+        "label": "Phase 3 — Offensive Foundations",
+        "description": "Months 7-9: Hands-on hacking: privilege escalation, web attacks, recon, enumeration.",
+        "topics": {
+            "Privilege Escalation": {
+                "mission_ids": [
+                    501,
+                    502,
+                    503,
+                    504,
+                    505,
+                    506,
+                    507
+                ],
+                "description": "Linux/Windows privesc: SUID, cron, sudo, PATH, wildcards, kernel exploits.",
+                "videos": [
+                    {
+                        "name": "Complete Pentesting & PrivEsc Course",
+                        "url": "https://ns2.elhacker.info/descargas/The%20Complete%20Pentesting%20%26%20Privilege%20Escalation%20Course/",
+                        "platform": "elhacker"
+                    },
+                    {
+                        "name": "Linux Rootkits for Red-Blue Teams",
+                        "url": "https://ns2.elhacker.info/descargas/Pentester%20Academy%20-%20Linux%20Rootkits%20for%20Red-Blue%20Teams/",
+                        "platform": "elhacker"
+                    },
+                    {
+                        "name": "Privilege Escalation Full Course",
+                        "url": "PLACEHOLDER",
+                        "platform": "telegram"
+                    }
+                ],
+                "pdfs": [
+                    {
+                        "name": "Linux PrivEsc Checklist",
+                        "url": "PLACEHOLDER",
+                        "platform": "gdrive"
+                    },
+                    {
+                        "name": "GTFOBins Reference",
+                        "url": "https://gtfobins.github.io",
+                        "platform": "web"
+                    }
+                ],
+                "labs": [
+                    {
+                        "name": "CyberSim PrivEsc Lab",
+                        "url": "docker:privesc_lab",
+                        "platform": "lab"
+                    },
+                    {
+                        "name": "TryHackMe - Linux PrivEsc",
+                        "url": "https://tryhackme.com/room/linprivesc",
+                        "platform": "web"
+                    }
+                ]
+            },
+            "Web Application Hacking": {
+                "mission_ids": [
+                    701,
+                    702,
+                    703,
+                    704,
+                    705,
+                    706
+                ],
+                "description": "OWASP Top 10, Burp Suite, SQLi, XSS, command injection, LFI/RFI.",
+                "videos": [
+                    {
+                        "name": "Mastering SQL Injection Hands-On",
+                        "url": "https://ns2.elhacker.info/descargas/Mastering%20SQL%20Injection%20-%20The%20Ultimate%20Hands-On%20Course/",
+                        "platform": "elhacker"
+                    },
+                    {
+                        "name": "Burp Suite Complete Crash Course",
+                        "url": "https://ns2.elhacker.info/descargas/Burp%20Suite%20Complete%20Crash%20Course/",
+                        "platform": "elhacker"
+                    },
+                    {
+                        "name": "TCM Advanced Web Hacking 2025",
+                        "url": "https://ns2.elhacker.info/descargas/TCM%20-%20Advanced%20Web%20Hacking%202025.5%20tg/",
+                        "platform": "elhacker"
+                    },
+                    {
+                        "name": "Web Hacking Full Course",
+                        "url": "PLACEHOLDER",
+                        "platform": "telegram"
+                    }
+                ],
+                "pdfs": [
+                    {
+                        "name": "OWASP Testing Guide PDF",
+                        "url": "PLACEHOLDER",
+                        "platform": "gdrive"
+                    },
+                    {
+                        "name": "SQL Injection Cheatsheet",
+                        "url": "PLACEHOLDER",
+                        "platform": "gdrive"
+                    }
+                ],
+                "labs": [
+                    {
+                        "name": "CyberSim VulnSite",
+                        "url": "docker:vulnsite",
+                        "platform": "lab"
+                    },
+                    {
+                        "name": "PortSwigger Web Security Academy",
+                        "url": "https://portswigger.net/web-security",
+                        "platform": "web"
+                    },
+                    {
+                        "name": "TryHackMe - OWASP Top 10",
+                        "url": "https://tryhackme.com/room/owasptop10",
+                        "platform": "web"
+                    }
+                ]
+            }
+        }
+    },
+    "phase_4": {
+        "label": "Phase 4 — CEH + CTF Practice",
+        "description": "Months 10-12: CEH certification study, CTF competitions, and practical challenges.",
+        "topics": {
+            "CEH Preparation": {
+                "mission_ids": [],
+                "description": "Certified Ethical Hacker (v11/v12/v13) — exam prep, labs, and practice.",
+                "videos": [
+                    {
+                        "name": "CEHv13 Latest",
+                        "url": "https://ns2.elhacker.info/descargas/CEHv13/",
+                        "platform": "elhacker"
+                    },
+                    {
+                        "name": "CEH v12 Videos + PDF + Lab Manuals",
+                        "url": "https://ns2.elhacker.info/descargas/Certified%20Ethical%20Hacker%20(CEH)%20v12%20-%20Videos%20+%20PDF%20Lessons%20+%20Lab%20Manuals/",
+                        "platform": "elhacker"
+                    },
+                    {
+                        "name": "CEH v11 Complete Course",
+                        "url": "https://ns2.elhacker.info/descargas/Certified%20Ethical%20Hacker%20(CEH)%20v11/",
+                        "platform": "elhacker"
+                    },
+                    {
+                        "name": "Ethical Hacking in 43 Hours CSEH+CEH 2024",
+                        "url": "https://ns2.elhacker.info/descargas/Ethical%20Hacking%20in%2043%20Hours%20Certificated%20CSEH+CEH%202024/",
+                        "platform": "elhacker"
+                    }
+                ],
+                "pdfs": [
+                    {
+                        "name": "CEH Exam Study Guide",
+                        "url": "PLACEHOLDER",
+                        "platform": "gdrive"
+                    }
+                ],
+                "labs": [
+                    {
+                        "name": "TryHackMe - Jr Penetration Tester",
+                        "url": "https://tryhackme.com/path/outline/jrpenetrationtester",
+                        "platform": "web"
+                    }
+                ]
+            },
+            "CTF Practice": {
+                "mission_ids": [
+                    801,
+                    802,
+                    803,
+                    804,
+                    805,
+                    806
+                ],
+                "description": "TryHackMe and HackTheBox guided challenges — real machines, real skills.",
+                "videos": [
+                    {
+                        "name": "HackTheBox Walkthroughs",
+                        "url": "PLACEHOLDER",
+                        "platform": "youtube"
+                    },
+                    {
+                        "name": "TryHackMe Full Path",
+                        "url": "PLACEHOLDER",
+                        "platform": "youtube"
+                    }
+                ],
+                "pdfs": [
+                    {
+                        "name": "CTF Methodology PDF",
+                        "url": "PLACEHOLDER",
+                        "platform": "gdrive"
+                    }
+                ],
+                "labs": [
+                    {
+                        "name": "TryHackMe - Junior Pentester",
+                        "url": "https://tryhackme.com/path/outline/jrpenetrationtester",
+                        "platform": "web"
+                    },
+                    {
+                        "name": "HackTheBox Starting Point",
+                        "url": "https://app.hackthebox.com/starting-point",
+                        "platform": "web"
+                    },
+                    {
+                        "name": "PicoCTF",
+                        "url": "https://picoctf.org",
+                        "platform": "web"
+                    }
+                ]
+            }
+        }
+    },
+    "phase_5": {
+        "label": "Phase 5 — Professional (AD & WiFi/Cloud)",
+        "description": "Months 13-15: Active Directory attacks, WiFi cracking, cloud exploitation.",
+        "topics": {
+            "Active Directory": {
+                "mission_ids": [
+                    1001,
+                    1002
+                ],
+                "description": "AD recon, Kerberoasting, lateral movement, domain persistence.",
+                "videos": [
+                    {
+                        "name": "AD Exploitation & Lateral Movement Black-Box",
+                        "url": "https://ns2.elhacker.info/descargas/Active%20Directory%20Exploitation%20and%20Lateral%20Movement%20Black-Box/",
+                        "platform": "elhacker"
+                    },
+                    {
+                        "name": "AD Pentesting With Kali Linux RedTeam",
+                        "url": "https://ns2.elhacker.info/descargas/Active%20Directory%20Pentesting%20With%20Kali%20Linux-RedTeam/",
+                        "platform": "elhacker"
+                    },
+                    {
+                        "name": "QURE Advanced Attacks Against AD",
+                        "url": "https://ns2.elhacker.info/descargas/QURE%20Academy%20-%20Advanced%20Attacks%20Against%20Active%20Directory/",
+                        "platform": "elhacker"
+                    }
+                ],
+                "pdfs": [
+                    {
+                        "name": "AD Attack Path Guide",
+                        "url": "PLACEHOLDER",
+                        "platform": "gdrive"
+                    },
+                    {
+                        "name": "BloodHound Cheatsheet",
+                        "url": "PLACEHOLDER",
+                        "platform": "gdrive"
+                    }
+                ],
+                "labs": [
+                    {
+                        "name": "CyberSim AD Lab",
+                        "url": "docker:ad_lab",
+                        "platform": "lab"
+                    },
+                    {
+                        "name": "TryHackMe - Active Directory Basics",
+                        "url": "https://tryhackme.com/room/activedirectorybasics",
+                        "platform": "web"
+                    }
+                ]
+            },
+            "Wireless & Cloud Hacking": {
+                "mission_ids": [
+                    901,
+                    902
+                ],
+                "description": "WiFi WPA2/WPA3 cracking, cloud SSRF, AWS exploitation.",
+                "videos": [
+                    {
+                        "name": "Complete WiFi Hacking Beginner-Advanced",
+                        "url": "https://ns2.elhacker.info/descargas/Complete%20WiFi%20Hacking%20Course%20Beginner%20to%20Advanced/",
+                        "platform": "elhacker"
+                    },
+                    {
+                        "name": "AWS Cloud Red Team Specialist",
+                        "url": "https://ns2.elhacker.info/descargas/AWS%20Cloud%20Red%20Team%20Specialist%20%5BCARTS%5D/",
+                        "platform": "elhacker"
+                    },
+                    {
+                        "name": "Cloud Pentesting Bootcamp",
+                        "url": "https://ns2.elhacker.info/descargas/Cloud%20Pentesting%20Bootcamp/",
+                        "platform": "elhacker"
+                    }
+                ],
+                "pdfs": [
+                    {
+                        "name": "WiFi Hacking Cheatsheet",
+                        "url": "PLACEHOLDER",
+                        "platform": "gdrive"
+                    }
+                ],
+                "labs": [
+                    {
+                        "name": "CyberSim WiFi Lab",
+                        "url": "docker:wifi_lab",
+                        "platform": "lab"
+                    },
+                    {
+                        "name": "CyberSim Cloud Lab",
+                        "url": "docker:cloud_lab",
+                        "platform": "lab"
+                    }
+                ]
+            }
+        }
+    },
+    "phase_6": {
+        "label": "Phase 6 — Exploit Development",
+        "description": "Months 16-18: Buffer overflow, shellcode, ROP chains, exploit writing.",
+        "topics": {
+            "Buffer Overflow & Exploit Dev": {
+                "mission_ids": [
+                    1003,
+                    1004
+                ],
+                "description": "Stack overflows, shellcode, ROP chains, exploit development.",
+                "videos": [
+                    {
+                        "name": "64-Bit Assembly & Shellcoding",
+                        "url": "https://ns2.elhacker.info/descargas/64-Bit%20Assembly%20%26%20Shellcoding%20for%20Ethical%20Hackers/",
+                        "platform": "elhacker"
+                    },
+                    {
+                        "name": "Certified Exploit Development Professional",
+                        "url": "https://ns2.elhacker.info/descargas/Certified%20Exploit%20Development%20Professional%20%5BCEDP%5D/",
+                        "platform": "elhacker"
+                    },
+                    {
+                        "name": "Assembly for Reverse Engineering",
+                        "url": "https://ns2.elhacker.info/descargas/Assembly%20Language%20Programming%20for%20Reverse%20Engineering/",
+                        "platform": "elhacker"
+                    }
+                ],
+                "pdfs": [
+                    {
+                        "name": "Buffer Overflow Guide PDF",
+                        "url": "PLACEHOLDER",
+                        "platform": "gdrive"
+                    }
+                ],
+                "labs": [
+                    {
+                        "name": "CyberSim BOF Lab",
+                        "url": "docker:bof_lab",
+                        "platform": "lab"
+                    },
+                    {
+                        "name": "TryHackMe - Buffer Overflow Prep",
+                        "url": "https://tryhackme.com/room/bufferoverflowprep",
+                        "platform": "web"
+                    }
+                ]
+            },
+            "Malware Development": {
+                "mission_ids": [
+                    1101,
+                    1102,
+                    1103
+                ],
+                "description": "Shellcode, payload dev, process injection, EDR evasion.",
+                "videos": [
+                    {
+                        "name": "Practical Linux Malware Development",
+                        "url": "https://ns2.elhacker.info/descargas/Practical%20Linux%20Malware%20Development/",
+                        "platform": "elhacker"
+                    },
+                    {
+                        "name": "Red Team Operator Malware Dev Essentials",
+                        "url": "https://ns2.elhacker.info/descargas/Red%20Team%20Operator%20Malware%20Development%20Essentials/",
+                        "platform": "elhacker"
+                    },
+                    {
+                        "name": "Sektor7 Malware Dev Intermediate",
+                        "url": "https://ns2.elhacker.info/descargas/Sektor7%20Malware%20Development%20Intermediate/",
+                        "platform": "elhacker"
+                    },
+                    {
+                        "name": "Mandiant Malware Analysis 2025",
+                        "url": "https://ns2.elhacker.info/descargas/Mandiant%20-%20Malware%20Analysis%202025/",
+                        "platform": "elhacker"
+                    }
+                ],
+                "pdfs": [
+                    {
+                        "name": "Process Injection Techniques PDF",
+                        "url": "PLACEHOLDER",
+                        "platform": "gdrive"
+                    }
+                ],
+                "labs": [
+                    {
+                        "name": "CyberSim Malware Lab",
+                        "url": "docker:malware_lab",
+                        "platform": "lab"
+                    }
+                ]
+            }
+        }
+    },
+    "phase_7": {
+        "label": "Phase 7 — Blue Team Defense",
+        "description": "Months 19-21: SOC analysis, Splunk SIEM, digital forensics, incident response.",
+        "topics": {
+            "Blue Team & SOC": {
+                "mission_ids": [
+                    1005,
+                    1006,
+                    1007
+                ],
+                "description": "SOC analysis, log monitoring, Splunk SIEM, digital forensics & IR.",
+                "videos": [
+                    {
+                        "name": "Infosec4TC SOC Analyst BootCamp",
+                        "url": "https://ns2.elhacker.info/descargas/Infosec4TC%20-%20The%20SOC%20Analyst%20Blue%20Team%20BootCamp/",
+                        "platform": "elhacker"
+                    },
+                    {
+                        "name": "Splunk Complete Course",
+                        "url": "PLACEHOLDER",
+                        "platform": "telegram"
+                    },
+                    {
+                        "name": "CompTIA CySA+ Course",
+                        "url": "PLACEHOLDER",
+                        "platform": "telegram"
+                    }
+                ],
+                "pdfs": [
+                    {
+                        "name": "SOC Analyst Handbook",
+                        "url": "PLACEHOLDER",
+                        "platform": "gdrive"
+                    },
+                    {
+                        "name": "Splunk Search Reference",
+                        "url": "PLACEHOLDER",
+                        "platform": "gdrive"
+                    }
+                ],
+                "labs": [
+                    {
+                        "name": "CyberSim SOC Lab",
+                        "url": "docker:soc_lab",
+                        "platform": "lab"
+                    },
+                    {
+                        "name": "TryHackMe - SOC Level 1",
+                        "url": "https://tryhackme.com/path/outline/soclevel1",
+                        "platform": "web"
+                    },
+                    {
+                        "name": "Blue Team Labs Online",
+                        "url": "https://blueteamlabs.online",
+                        "platform": "web"
+                    }
+                ]
+            }
+        }
+    },
+    "phase_8": {
+        "label": "Phase 8 — Advanced Red Team",
+        "description": "Months 22-24: C2 frameworks, adversary simulation, OSCP/PNPT prep, career.",
+        "topics": {
+            "Red Team & C2 Operations": {
+                "mission_ids": [
+                    1104
+                ],
+                "description": "Cobalt Strike, BruteRatel, C2 frameworks, adversary simulation.",
+                "videos": [
+                    {
+                        "name": "Red Team Ops with Cobalt Strike",
+                        "url": "https://ns2.elhacker.info/descargas/Red%20Team%20Ops%20with%20Cobalt%20Strike/",
+                        "platform": "elhacker"
+                    },
+                    {
+                        "name": "Certified Red Team Analyst CRTA",
+                        "url": "https://ns2.elhacker.info/descargas/Certified%20Red%20Team%20Analyst%20-%20CRTA/",
+                        "platform": "elhacker"
+                    },
+                    {
+                        "name": "SEC670 Red Teaming Tools",
+                        "url": "https://ns2.elhacker.info/descargas/SEC670%20Red%20Teaming%20Tools%20-%20Developing%20Windows%20Implants%2C%20Shellcode%2C%20Command%20and%20Control/",
+                        "platform": "elhacker"
+                    },
+                    {
+                        "name": "BruteRatel C4 Adversary Simulation",
+                        "url": "https://ns2.elhacker.info/descargas/Red%20Team%20and%20Adversary%20Simulation%20with%20BruteRatel%20C4/",
+                        "platform": "elhacker"
+                    }
+                ],
+                "pdfs": [
+                    {
+                        "name": "C2 Matrix Comparison PDF",
+                        "url": "PLACEHOLDER",
+                        "platform": "gdrive"
+                    }
+                ],
+                "labs": [
+                    {
+                        "name": "TryHackMe - Red Team Fundamentals",
+                        "url": "https://tryhackme.com/room/redteamfundamentals",
+                        "platform": "web"
+                    }
+                ]
+            },
+            "Certification & Career": {
+                "mission_ids": [
+                    903,
+                    904,
+                    905,
+                    906,
+                    907,
+                    908,
+                    909,
+                    1105
+                ],
+                "description": "Bug bounty, resume, interviews, OSCP/PNPT prep, portfolio.",
+                "videos": [
+                    {
+                        "name": "Bug Bounty Course",
+                        "url": "PLACEHOLDER",
+                        "platform": "telegram"
+                    },
+                    {
+                        "name": "OSCP Prep Course",
+                        "url": "PLACEHOLDER",
+                        "platform": "telegram"
+                    }
+                ],
+                "pdfs": [
+                    {
+                        "name": "Cybersecurity Resume Template",
+                        "url": "PLACEHOLDER",
+                        "platform": "gdrive"
+                    },
+                    {
+                        "name": "OSCP Exam Checklist",
+                        "url": "PLACEHOLDER",
+                        "platform": "gdrive"
+                    }
+                ],
+                "labs": [
+                    {
+                        "name": "HackerOne Programs",
+                        "url": "https://hackerone.com/directory/programs",
+                        "platform": "web"
+                    },
+                    {
+                        "name": "Bugcrowd",
+                        "url": "https://bugcrowd.com",
+                        "platform": "web"
+                    }
+                ]
+            }
+        }
+    }
+}

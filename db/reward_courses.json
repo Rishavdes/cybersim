@@ -1,0 +1,303 @@
+{
+    "elhacker_osint": {
+        "title": "OSINT Fundamentals",
+        "links": [
+            {
+                "name": "TCM Open-Source Intelligence (OSINT) Fundamentals",
+                "url": "https://ns2.elhacker.info/descargas/TCM%20-%20Open-Source%20Intelligence%20(OSINT)%20Fundamentals/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "OSINT Training Collection",
+                "url": "https://ns2.elhacker.info/descargas/OSINT%20Training/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "BH Tactical OSINT For Pentesters",
+                "url": "https://ns2.elhacker.info/descargas/BH%20-%20Tactical%20OSINT%20For%20Pentesters/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "Curso de OSINT Técnicas de investigación",
+                "url": "https://ns2.elhacker.info/descargas/Curso%20de%20OSINT%20-%20T%C3%A9cnicas%20de%20investigaci%C3%B3n%20e%20inteligencia%20en%20fuentes%20abiertas/",
+                "platform": "elhacker"
+            }
+        ]
+    },
+    "elhacker_android_hack": {
+        "title": "Android Hacking & Pentesting",
+        "links": [
+            {
+                "name": "Android App Hacking Black Belt Edition",
+                "url": "https://ns2.elhacker.info/descargas/Android%20App%20Hacking%20Black%20Belt%20Edition/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "Android Ethical Hacking Course",
+                "url": "https://ns2.elhacker.info/descargas/Android%20Ethical%20Hacking%20Course/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "Android Application Static Analysis",
+                "url": "https://ns2.elhacker.info/descargas/Android%20Application%20Static%20Analysis/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "Android Application Dynamic Analysis",
+                "url": "https://ns2.elhacker.info/descargas/Android%20Application%20Dynamic%20Analysis/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "Hacking Android Applications Bug Bounty",
+                "url": "https://ns2.elhacker.info/descargas/Hacking%20Android%20Applications%20for%20Bug%20Bounty%20and%20Pentesting/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "Android App Reverse Engineering",
+                "url": "https://ns2.elhacker.info/descargas/Android%20App%20Reverse%20Engineering/",
+                "platform": "elhacker"
+            }
+        ]
+    },
+    "elhacker_darkweb": {
+        "title": "Dark Web & Anonymity",
+        "links": [
+            {
+                "name": "The Ultimate Dark Web Anonymity Privacy Security 2025",
+                "url": "https://ns2.elhacker.info/descargas/Udemy%20-%20The%20Ultimate%20Dark%20Web%20Anonymity%20Privacy%20Security%20Course%202025/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "Complete Deep Web Course",
+                "url": "https://ns2.elhacker.info/descargas/Complete%20Deep%20Web%20Course/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "Dark Web Forensics (DWA)",
+                "url": "https://ns2.elhacker.info/descargas/Dark%20Web%20Forensics%20(DWA)/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "The Ultimate Anonymity Online While Hacking",
+                "url": "https://ns2.elhacker.info/descargas/The%20Ultimate%20Anonymity%20Online%20While%20Hacking!/",
+                "platform": "elhacker"
+            }
+        ]
+    },
+    "elhacker_soc_analyst": {
+        "title": "SOC Analyst Career Path",
+        "links": [
+            {
+                "name": "Cybrary SOC Analyst Level 1 Path",
+                "url": "https://ns2.elhacker.info/descargas/Cybrary%20-%20Become%20a%20SOC%20Analyst%20-%20Level%201%20Path/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "Cybrary SOC Analyst Level 2 Path",
+                "url": "https://ns2.elhacker.info/descargas/Cybrary%20-%20Become%20a%20SOC%20Analyst%20-%20Level%202%20Path/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "Cybrary SOC Analyst Level 3 Path",
+                "url": "https://ns2.elhacker.info/descargas/Cybrary%20-%20Become%20a%20SOC%20Analyst%20-%20Level%203%20Path/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "EC-Council Certified SOC Analyst (CSA)",
+                "url": "https://ns2.elhacker.info/descargas/EC%20Council%20course%20CSA%20%E2%80%93%20Certified%20SOC%20Analyst/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "Infosec4TC SOC Analyst Blue Team BootCamp",
+                "url": "https://ns2.elhacker.info/descargas/Infosec4TC%20-%20The%20SOC%20Analyst%20Blue%20Team%20BootCamp/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "ChatGPT for SOC Analyst",
+                "url": "https://ns2.elhacker.info/descargas/ChatGPT%20for%20SOC%20Analyst%20Master%20Cyber%20Security%20with%20AI/",
+                "platform": "elhacker"
+            }
+        ]
+    },
+    "elhacker_reverse_eng": {
+        "title": "Reverse Engineering with Ghidra & IDA",
+        "links": [
+            {
+                "name": "Reverse Engineering Ghidra For Beginners",
+                "url": "https://ns2.elhacker.info/descargas/Reverse%20Engineering%20Ghidra%20For%20Beginners/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "Reverse Engineering IDA For Beginners",
+                "url": "https://ns2.elhacker.info/descargas/Reverse%20Engineering%20IDA%20For%20Beginners/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "Reverse Engineering & Malware Analysis Fundamentals",
+                "url": "https://ns2.elhacker.info/descargas/Reverse%20Engineering%20and%20Malware%20Analysis%20Fundamentals/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "Reverse Engineering & Exploit Development",
+                "url": "https://ns2.elhacker.info/descargas/Reverse%20Engineering%20and%20Exploit%20Development/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "Targeted Malware Reverse Engineering",
+                "url": "https://ns2.elhacker.info/descargas/Targeted%20Malware%20Reverse%20Engineering/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "Curso Reversing desde cero - Narvaja",
+                "url": "https://ns2.elhacker.info/descargas/Curso%20Reversing%20desde%20cero%20-%20Narvaja%20%26%20Solid/",
+                "platform": "elhacker"
+            }
+        ]
+    },
+    "elhacker_flipper_zero": {
+        "title": "Flipper Zero & Hardware Hacking",
+        "links": [
+            {
+                "name": "The Ultimate Flipper Zero Course",
+                "url": "https://ns2.elhacker.info/descargas/The%20Ultimate%20Flipper%20Zero%20Course%20Learn%2C%20Hack%2C%20Innovate/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "Practical Hardware Hacking",
+                "url": "https://ns2.elhacker.info/descargas/Practical%20Hardware%20Hacking/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "Automobile Hacking and Security v2",
+                "url": "https://ns2.elhacker.info/descargas/Automobile_Hacking_and_Security_v2.0/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "Hacking de Radiofrecuencia s4vitar",
+                "url": "https://ns2.elhacker.info/descargas/Hacking%20de%20Radiofrecuencia-s4vitar/",
+                "platform": "elhacker"
+            }
+        ]
+    },
+    "elhacker_cloud_redteam": {
+        "title": "AWS Cloud Red Team Specialist",
+        "links": [
+            {
+                "name": "AWS Cloud Red Team Specialist [CARTS]",
+                "url": "https://ns2.elhacker.info/descargas/AWS%20Cloud%20Red%20Team%20Specialist%20%5BCARTS%5D/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "HackTricks AWS Red Team Expert (ARTE)",
+                "url": "https://ns2.elhacker.info/descargas/HackTricks%20-%20AWS%20Red%20Team%20Expert%20(ARTE)/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "Hybrid Multi-Cloud Red Team Specialist [CHMRTS]",
+                "url": "https://ns2.elhacker.info/descargas/Hybrid%20Multi-Cloud%20Red%20Team%20Specialist%20%5BCHMRTS%5D/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "Cloud Pentesting Bootcamp",
+                "url": "https://ns2.elhacker.info/descargas/Cloud%20Pentesting%20Bootcamp/",
+                "platform": "elhacker"
+            }
+        ]
+    },
+    "elhacker_forensics": {
+        "title": "SANS Digital Forensics Collection",
+        "links": [
+            {
+                "name": "SANS FOR508 Advanced Incident Response 2023",
+                "url": "https://ns2.elhacker.info/descargas/FOR508%20Videos%202023/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "SANS FOR585 Smartphone Forensic Analysis",
+                "url": "https://ns2.elhacker.info/descargas/FOR585_%20Smartphone%20Forensic%20Analysis%20In-Depth%20Videos%202022/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "SANS FOR572 Advanced Network Forensics",
+                "url": "https://ns2.elhacker.info/descargas/FOR572%20Course_%20Advanced%20Network%20Forensics_%20Threat%20Hunting%2C%20Analysis%2C%20and%20Incident%20Response/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "Computer Forensics Specialization",
+                "url": "https://ns2.elhacker.info/descargas/Computer%20Forensics%20Specialization/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "Windows Registry Forensics",
+                "url": "https://ns2.elhacker.info/descargas/Windows-Registry-Forensics/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "13Cubed Investigating Linux Devices",
+                "url": "https://ns2.elhacker.info/descargas/13Cubed%20-%20Investigating%20Linux%20Devices/",
+                "platform": "elhacker"
+            }
+        ]
+    },
+    "elhacker_physical_redteam": {
+        "title": "Physical Red Teaming & Social Engineering",
+        "links": [
+            {
+                "name": "Physical Red Teaming Bootcamp Series",
+                "url": "https://ns2.elhacker.info/descargas/Physical%20Red%20Teaming%20Bootcamp%20Series/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "Complete Social Engineering Phishing OSINT & Malware",
+                "url": "https://ns2.elhacker.info/descargas/The%20Complete%20Social%20Engineering%2C%20Phishing%2C%20OSINT%20%26%20Malware/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "Social Engineering Course",
+                "url": "https://ns2.elhacker.info/descargas/Social%20Engineering/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "BREAKDEV Evilginx Mastery (Phishing)",
+                "url": "https://ns2.elhacker.info/descargas/BREAKDEV%20-%20Evilginx%20Mastery/",
+                "platform": "elhacker"
+            }
+        ]
+    },
+    "elhacker_cobalt_strike": {
+        "title": "Red Team Ops with Cobalt Strike",
+        "links": [
+            {
+                "name": "Red Team Ops with Cobalt Strike",
+                "url": "https://ns2.elhacker.info/descargas/Red%20Team%20Ops%20with%20Cobalt%20Strike/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "Pentesting con Cobalt Strike",
+                "url": "https://ns2.elhacker.info/descargas/Pentesting%20con%20Cobalt%20Strike/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "Red Team Ops I",
+                "url": "https://ns2.elhacker.info/descargas/Red%20Team%20Ops%20I/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "Red Team Ops II",
+                "url": "https://ns2.elhacker.info/descargas/Red%20Team%20Ops%20II/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "FortyNorth Intrusion Operations",
+                "url": "https://ns2.elhacker.info/descargas/FortyNorth%20-%20Intrusion%20Operations/",
+                "platform": "elhacker"
+            },
+            {
+                "name": "BruteRatel C4 Adversary Simulation",
+                "url": "https://ns2.elhacker.info/descargas/Red%20Team%20and%20Adversary%20Simulation%20with%20BruteRatel%20C4/",
+                "platform": "elhacker"
+            }
+        ]
+    },
+    "_comment": "Add your own Telegram/Google Drive links by adding new entries with platform: telegram or gdrive"
+}

@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  juice-shop:
+    image: bkimminich/juice-shop:latest
+    container_name: cybersim_juice_shop
+    ports:
+      - "3000:3000"
+    restart: unless-stopped

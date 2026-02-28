@@ -1,0 +1,21 @@
+{
+  "player_name": "Rishav Deshwal",
+  "current_day": 1,
+  "xp": 0,
+  "streak": 0,
+  "last_played": null,
+  "difficulty": "easy",
+  "completed_levels": [],
+  "flags_captured": [
+    "FLAG{edfbc9713dcc068e}",
+    "FLAG{dcaf567362d2bb94}"
+  ],
+  "mission_completions": {
+    "101": [
+      "easy",
+      "normal"
+    ]
+  },
+  "unlocked_rewards": [],
+  "active_title": "Recruit"
+}

@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  vulnsite:
+    build: .
+    container_name: cybersim_vulnsite
+    ports:
+      - "8080:5000"
+    environment:
+      - DIFFICULTY=easy
+    volumes:
+      - ./uploads:/app/uploads
+    restart: unless-stopped

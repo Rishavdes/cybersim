@@ -1,0 +1,20 @@
+version: '3.8'
+services:
+  network_target:
+    build: .
+    container_name: cybersim_network_target
+    networks:
+      cybersim_net:
+        ipv4_address: 172.20.0.2
+    environment:
+      - CYBERSIM_FLAG=${CYBERSIM_FLAG:-NOFLAG}
+    cap_add:
+      - NET_ADMIN
+    restart: unless-stopped
+
+networks:
+  cybersim_net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/24

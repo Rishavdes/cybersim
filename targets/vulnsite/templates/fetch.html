@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}URL Checker{% endblock %}
+{% block content %}
+<div style="max-width:600px;margin:3rem auto;">
+    <h1>URL Checker</h1>
+    <p style="color:#9ca3af;margin-bottom:1rem;">Check if a URL is reachable. We'll fetch its content for you.</p>
+    <form method="POST">
+        <label>URL</label>
+        <input type="text" name="url" placeholder="https://example.com" required>
+        <button type="submit" style="width:100%;margin-top:1rem;">Fetch</button>
+    </form>
+    {% if result %}
+    <div class="card" style="margin-top:2rem;">
+        <h3>Response:</h3>
+        <pre
+            style="white-space:pre-wrap;word-break:break-all;color:#9ca3af;max-height:400px;overflow:auto;">{{ result }}</pre>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

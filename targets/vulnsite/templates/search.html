@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Search{% endblock %}
+{% block content %}
+<h1>Search Products</h1>
+<form method="GET" style="display:flex;gap:1rem;margin-bottom:2rem;">
+    <input type="text" name="q" value="{{ query }}" placeholder="Search products...">
+    <button type="submit">Search</button>
+</form>
+{% if error %}<div class="error">{{ error }}</div>{% endif %}
+{% if query %}
+<p style="color:#9ca3af;">Results for: {% if difficulty in ['easy','normal'] %}{{ query|safe }}{% else %}{{ query }}{%
+    endif %}</p>
+{% endif %}
+<div class="grid">
+    {% for p in products %}
+    <div class="card">
+        <h3>{{ p.name if p.name else p[1] }}</h3>
+        <p style="color:#9ca3af;">{{ p.description if p.description else p[2] }}</p>
+        <span class="price">${{ "%.2f"|format(p.price if p.price else p[3]) }}</span>
+    </div>
+    {% else %}
+    {% if query %}<p style="color:#9ca3af;">No products found.</p>{% endif %}
+    {% endfor %}
+</div>
+{% endblock %}

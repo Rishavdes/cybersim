@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  ai_vulnsite:
+    build: .
+    container_name: cybersim_ai_vulnsite
+    network_mode: "host"
+    environment:
+      - DIFFICULTY=easy
+      - OLLAMA_URL=http://127.0.0.1:11434
+      - MODEL=llama3.2:1b
+    restart: unless-stopped

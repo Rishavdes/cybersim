@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  linux_gym:
+    build: .
+    container_name: cybersim_linux_gym
+    ports:
+      - "2222:22"
+    networks:
+      - cybersim_net
+    restart: unless-stopped
+
+networks:
+  cybersim_net:
+    driver: bridge

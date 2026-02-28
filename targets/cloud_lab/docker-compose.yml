@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  cloud_target:
+    build: .
+    container_name: cybersim_cloud_target
+    hostname: CLOUDAPP
+    networks:
+      cybersim_net:
+        ipv4_address: 172.20.0.15
+    environment:
+      - CYBERSIM_FLAG=${CYBERSIM_FLAG:-FLAG{cloud_default}}
+    restart: unless-stopped
+
+networks:
+  cybersim_net:
+    external: true
+    name: networking_lab_cybersim_net

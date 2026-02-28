@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Admin Panel{% endblock %}
+{% block content %}
+<h1>🔐 Admin Panel</h1>
+<div class="card">
+    <h3>All Users ({{ users|length }})</h3>
+    <!-- 🚩 Admin Access Flag: {{ flag }} -->
+    <p style="color:#22c55e;font-size:.8rem;">🚩 {{ flag }}</p>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Role</th>
+            <th>Joined</th>
+        </tr>
+        {% for u in users %}
+        <tr>
+            <td>{{ u.id }}</td>
+            <td>{{ u.username }}</td>
+            <td>{{ u.email }}</td>
+            <td>{{ u.role }}</td>
+            <td>{{ u.created_at }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}

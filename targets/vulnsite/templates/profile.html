@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}{{ user.username }}'s Profile{% endblock %}
+{% block content %}
+<h1>{{ user.username }}'s Profile</h1>
+<div class="card">
+    <p><strong>Email:</strong> {{ user.email }}</p>
+    <p><strong>Role:</strong> {{ user.role }}</p>
+    <p><strong>Joined:</strong> {{ user.created_at }}</p>
+</div>
+<h2>Order History</h2>
+{% for o in orders %}
+<div class="card">
+    <div style="display:flex;justify-content:space-between;">
+        <span>Order #{{ o.id }} — {{ o.product_name }}</span>
+        <span class="price">${{ "%.2f"|format(o.total) }}</span>
+    </div>
+    <p style="color:#9ca3af;">Qty: {{ o.quantity }} | Status: {{ o.status }} {% if o.coupon_code %}| Coupon: {{
+        o.coupon_code }}{% endif %}</p>
+</div>
+{% else %}
+<p style="color:#9ca3af;">No orders yet.</p>
+{% endfor %}
+{% endblock %}
