@@ -2,6 +2,13 @@
   <img src="cybersim-banner.png" width="900">
 </p>
 
+<h1 align="center">CYBERSIM</h1>
+
+<p align="center">
+Professional Cybersecurity Training Range | AI-Powered  
+<br>
+<b>"Hack to Learn. Learn to Hack."</b>
+</p>
 # 🎮 CyberSim v2.0: AI-Powered Cybersecurity Training Range
 
 CyberSim is a standalone, local, and fully offline-capable cybersecurity training simulator designed to take you from a complete beginner (Script Kiddie) to an advanced Red/Blue team operator. Inspired by industry-standard certifications (CEH, PNPT, OSCP, CRTO) and platforms like HackTheBox and TryHackMe, CyberSim provides a **730-day scheduled curriculum** featuring 77 unique, repeatable missions with dynamic difficulty scaling.
